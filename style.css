@@ -236,6 +236,7 @@ footer h2 {
 
 footer small {
   font-size: 0.85rem;
+  color: #666;
 }
 
 @media screen and (max-width: 480px) {
@@ -265,6 +266,7 @@ footer small {
 
   .schedule {
     margin-top: 25%;
+    margin-bottom: 25%;
   }
 
   .schedule-contents {
@@ -288,5 +290,18 @@ footer small {
   .schedule-attention {
     margin: 7% 2%;
     font-size: 0.66rem;
+  }
+
+  footer {
+    padding-bottom: 1.6%;
+    margin-top: 11%;
+  }
+  
+  footer h2 {
+    font-size: 0.87rem;
+  }
+  
+  footer small {
+    font-size: 0.76rem;
   }
 }
