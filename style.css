@@ -110,9 +110,19 @@ img {
   vertical-align:top;
 }
 
-
-
-.body{
+body{
   width: 100%;
-  overflow: hidden;
+  font-family: "Sawarabi Gothic";
+}
+
+/* header */
+
+header {
+  text-align: center;
+  padding: 3% 0;
+}
+
+.bg-top {
+  height: 550px;
+  background-color: azure; /* TODO: とりあえず */
 }
