@@ -170,6 +170,11 @@ header h1 {
   font-size: 0.95rem;
 }
 
+.overview-venue {
+  padding-top: 2%;
+  padding-bottom: 6%;
+}
+
 .schedule {
   margin-top: 11%;
 }
