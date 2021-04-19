@@ -166,6 +166,7 @@ header h1 {
 
 .overview-contents p {
   margin-top: 6%;
+  font-size: 0.95rem;
 }
 
 .schedule {
@@ -188,6 +189,7 @@ header h1 {
 
 .schedule-contents p {
   margin-top: 3%;
+  font-size: 0.95rem;
 }
 
 .schedule-contents p:nth-last-child(0) {
