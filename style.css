@@ -113,6 +113,7 @@ img {
 body{
   width: 100%;
   font-family: "Sawarabi Gothic";
+  background-color: rgb(249, 245, 237);
 }
 
 /* header */
@@ -135,4 +136,22 @@ header h1 {
 .bg-top {
   height: 550px;
   background-color: azure; /* TODO: とりあえず */
+}
+
+.overview {
+  height: 400px;
+  /* background-color: rgb(173, 173, 255); */
+}
+
+.overview-wrapper {
+  background-color: rgb(253, 253, 253);
+  margin: 0 20%;
+  margin-top: 7%;
+  padding-left: 9%;
+  padding-right: 9%;
+}
+
+.overview-title {
+  /* padding-top: 8%; */
+  text-align: center;
 }
