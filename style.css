@@ -142,7 +142,7 @@ header h1 {
 }
 
 .bg-top {
-  height: 550px;
+  height: 450px;
   background-color: azure; /* TODO: とりあえず */
 }
 
@@ -234,4 +234,34 @@ footer h2 {
 
 footer small {
   font-size: 0.85rem;
+}
+
+@media screen and (max-width: 480px) {
+  .title h2 {
+    font-size: 1.3rem;
+  }
+
+  .bg-top {
+    height: 575px;
+  }
+
+  .overview-wrapper {
+    margin: 0 12%;
+    margin-top: 12%;
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  
+  .overview-title {
+    padding-top: 9%;
+  }
+  
+  .overview-contents {
+    margin: 9% 0;
+    text-align: center;
+  }
+
+  .schedule {
+    
+  }
 }
