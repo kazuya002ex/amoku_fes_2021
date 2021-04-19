@@ -137,6 +137,7 @@ header {
 header h1 {
   text-align: center;
   font-weight: normal;
+  font-size: 1.08rem;
   font-family: "Nico Moji"
 }
 
@@ -160,6 +161,7 @@ header h1 {
 
 .overview-contents {
   margin: 9% 0;
+  text-align: center;
 }
 
 .overview-contents p {
@@ -181,6 +183,7 @@ header h1 {
 
 .schedule-contents {
   margin: 5% 15%;
+  margin-left: 28%;
 }
 
 .schedule-contents p {
@@ -208,8 +211,27 @@ header h1 {
   margin: 2% 8%;
   font-size: 0.88rem;
   padding-bottom: 5%;
+  text-align: center;
 }
 
 .schedule-attention p {
   color: #888;
+}
+
+footer {
+  width: 100%;
+  background-color: rgb(251, 251, 251);
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 1.6%;
+  margin-top: 11%;
+}
+
+footer h2 {
+  margin-bottom: 2.5%;
+  font-size: 0.95rem;
+}
+
+footer small {
+  font-size: 0.85rem;
 }
