@@ -138,20 +138,28 @@ header h1 {
   background-color: azure; /* TODO: とりあえず */
 }
 
-.overview {
-  height: 400px;
-  /* background-color: rgb(173, 173, 255); */
-}
-
 .overview-wrapper {
   background-color: rgb(253, 253, 253);
   margin: 0 20%;
   margin-top: 7%;
+  padding-bottom: 4%;
   padding-left: 9%;
   padding-right: 9%;
 }
 
 .overview-title {
-  /* padding-top: 8%; */
+  padding-top: 6%;
   text-align: center;
+}
+
+.overview-title h2 {
+  font-size: 1.25rem;
+}
+
+.overview-contents {
+  margin: 9% 0;
+}
+
+.overview-contents p {
+  margin-top: 6%;
 }
