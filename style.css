@@ -156,9 +156,11 @@ header h1 {
   text-align: center;
 }
 
-.chomenify h2 {
+.chomenify p {
   color: #fff;
-  font-size: 1.75rem;
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 5%;
 }
 
 .viewer {
