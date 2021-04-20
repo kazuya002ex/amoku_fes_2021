@@ -144,6 +144,21 @@ header h1 {
 
 .bg-top {
   height: 650px;
+  position: relative;
+}
+
+.chomenify {
+  padding-top: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  text-align: center;
+}
+
+.chomenify h2 {
+  color: #fff;
+  font-size: 1.75rem;
 }
 
 .viewer {
